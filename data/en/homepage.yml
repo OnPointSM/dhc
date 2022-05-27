@@ -1,29 +1,29 @@
 ################################## Banner #################################
 banner:
   enable : true
-  subtitle : "Prepare for new future"
-  title : "Helping customers be their best in the moments that matter."
+  subtitle : "Dorset House Clearance Services"
+  title : "Friendly, reliable, trustworthy people who won't let you down"
 
   # solid button
   button_solid:
     enable : true
-    label : "Get started"
-    link : "pricing"
+    label : "What We Do"
+    link : "service"
 
   # border button
   button_border:
-    enable : true
+    enable : false
     label : "Discover Enov"
     link : "service"
 
 ######################## Banner call to action ############################
 banner_cta:
   enable : true
-  title : "Crafting visually stunning memorable experiences for web."
-  content : "Magni perspiciatis sequi, molestias dignissimos numquam placeat eveniet nobis rerum eos, facilis minus, est illo adipisci soluta dolores quisquam, praesentium ab corrupti!"
+  title : "We understand that clearing a house can be traumatic"
+  content : "We aim to make that process as sympathetic and stress-free as possible"
   button:
     enable : true
-    label : "Learn more"
+    label : "Who We Are"
     link : "about"
 
 ########################## feature ########################################
@@ -35,7 +35,7 @@ feature:
     - title : "Modern & Responsive design"
       icon : "ti-wand" # icon pack : https://themify.me/themify-icons
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, aspernatur."
-      
+
     # feature item loop
     - title : "Awarded licensed company"
       icon : "ti-medall" # icon pack : https://themify.me/themify-icons
@@ -62,19 +62,19 @@ funfacts:
       icon : "ti-check" # themify icon pack: https://themify.me/themify-icons
       count : "1730"
       unit : "+"
-      
+
     # fanfacts item loop
     - title : "User Worldwide"
       icon : "ti-flag" # themify icon pack: https://themify.me/themify-icons
       count : "125"
       unit : "M"
-      
+
     # fanfacts item loop
     - title : "Availble Country"
       icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
       count : "40"
       unit : ""
-      
+
     # fanfacts item loop
     - title : "Award Winner"
       icon : "ti-medall" # themify icon pack: https://themify.me/themify-icons
@@ -107,19 +107,19 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
     ################### team member loop
     - name : "Mikel Emily"
       image : "images/team/team-2.jpg"
@@ -128,19 +128,19 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
     ################### team member loop
     - name : "David Spensor"
       image : "images/team/team-3.jpg"
@@ -149,19 +149,19 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
     ################### team member loop
     - name : "Jason Roy"
       image : "images/team/team-4.jpg"
@@ -170,19 +170,19 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
     ################### team member loop
     - name : "Peter Odin"
       image : "images/team/team-1.jpg"
@@ -191,19 +191,19 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
     ################### team member loop
     - name : "David Spensor"
       image : "images/team/team-4.jpg"
@@ -212,15 +212,15 @@ team:
         # social site loop
         - icon : "ti-facebook" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-twitter-alt" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
           link : "#"
-          
+
         # social site loop
         - icon : "ti-github" # icon pack : https://themify.me/themify-icons
           link : "#"

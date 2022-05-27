@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://dhc.onrender.com/"
-title = "Enov Hugo | Html5 Business template"
+title = "DHC | Dorset House Clearance"
 theme = "enov-hugo"
 # post pagination
 paginate = "6"
@@ -54,34 +54,14 @@ link = "plugins/google-map/map.js"
 
 # main menu
 [[menu.main]]
-name = "About"
+name = "About Us"
 URL = "about"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 3
-
-[[menu.main]]
+name = "Our Services"
+URL = "service"
 weight = 4
-name = "Pages"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Portfolio"
-  URL = "project"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  URL = "pricing"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Service"
-  URL = "service"
 
 [[menu.main]]
 name = "Contact"
@@ -94,20 +74,6 @@ name = "service"
 URL = "service"
 weight = 1
 
-[[menu.footer]]
-name = "about"
-URL = "about"
-weight = 2
-
-[[menu.footer]]
-name = "blog"
-URL = "blog"
-weight = 3
-
-[[menu.footer]]
-name = "pricing"
-URL = "pricing"
-weight = 4
 
 
 #################### default parameters ################################
@@ -119,15 +85,19 @@ top_header = true
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-phone = "+211234565523"
-email = "info@enov.com"
+address = "92 Church Rd, Ferndown, BH22 9EX"
+phone = "+44 7894142106"
+email = "info@dorsethouseclearance.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # search
 search = true
+
+[params.callme_beacon]
+enable = true
+label = "Call Us"
 
 # Preloader
 [params.preloader]
@@ -179,21 +149,6 @@ name = "Facebook"
 icon = "ti-facebook"
 link = "#"
 
-[[params.social]]
-name = "Twitter"
-icon = "ti-twitter-alt"
-link = "#"
-
-[[params.social]]
-name = "Vimeo"
-icon = "ti-vimeo-alt"
-link = "#"
-
-[[params.social]]
-name = "Github"
-icon = "ti-github"
-link = "#"
-
 ########################### English language ###########################
 [Languages.en]
 languageName = "En"
@@ -201,16 +156,5 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
-
-########################### French language ############################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
 # copyright
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

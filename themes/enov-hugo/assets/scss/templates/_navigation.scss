@@ -1,9 +1,41 @@
-
 .navigation{
   position: absolute;
   width: 100%;
   z-index: 9999;
 }
+
+.callme-beacon {
+  bottom: 30px;
+  right: 30px;
+  background: $primary-color;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  box-shadow: 0 5px 40px rgba($primary-color, 0.35);
+  transition: .2s ease;
+  a {
+    display: block;
+    padding: 8px 16px;
+  }
+  a:focus {
+    color: white;
+  }
+  svg {
+    fill: white;
+    transform: translateY(-1px);
+    margin-right: 4px;
+  }
+  &:hover {
+    background-color: white;
+    a {
+      color: $primary-color;
+    }
+    svg {
+      fill: $primary-color;
+    }
+  }
+}
+
 #navbar{
   li{
     padding-left: 15px;
@@ -178,10 +210,24 @@ ul.dropdown-menu li {
 }
 .navbar-collapse{
    text-align: left;
-}
-.navbar-collapse.collapse.show{
-  background: $black;
-  padding: 20px 0px;
+   @include desktop {
+      background-color: $black;
+      text-align: center;
+      margin-top: 10px;
+      .navbar-nav {
+        margin-top: 20px;
+        li {
+          padding-left: 0 !important;
+        }
+      }
+      .navbar-actions {
+        .quote-btn {
+          margin-left: 0 !important;
+          margin-top: 15px;
+          margin-bottom: 25px;
+        }
+      }
+   }
 }
 .navbar-collapse.collapse.show{
   .dropdown-menu{
@@ -202,10 +248,6 @@ a.bg-primary:hover{
 
 
 @include mobile{
-  .navbar-collapse{
-     text-align: center;
-     padding: 20px;
-  }
    .header-top .header-top-info a {
       margin-left: 0px;
   }
@@ -224,10 +266,6 @@ a.bg-primary:hover{
 
 
 @include mobile-xs{
-  .navbar-collapse{
-     text-align: center;
-     padding: 20px;
-  }
    .header-top .header-top-info a {
       margin-left: 0px;
       display: block;
@@ -249,10 +287,6 @@ a.bg-primary:hover{
 
 
 @include tablet{
-  .navbar-collapse{
-     text-align: center;
-     padding: 20px;
-  }
    .navbar-toggler{
     color: $light;
   }
