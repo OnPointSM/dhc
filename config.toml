@@ -82,7 +82,7 @@ logo = "images/logo3.jpeg"
 # top header
 top_header = true
 # Meta data
-description = "This is meta description"
+description = "Professional House Clearance Service in Dorset, (inc. Bournemouth & Poole). Deceased estates cleared. Friendly & reliable people"
 author = "Themefisher"
 # contact info
 address = "92 Church Rd, Ferndown, BH22 9EX"
@@ -147,7 +147,7 @@ logo = "images/about/key-vision1.png"
 [[params.social]]
 name = "Facebook"
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/Bazclearance"
 
 ########################### English language ###########################
 [Languages.en]
