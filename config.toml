@@ -70,8 +70,8 @@ weight = 5
 
 # footer menu
 [[menu.footer]]
-name = "service"
-URL = "service"
+name = "Contact Us"
+URL = "contact"
 weight = 1
 
 
@@ -113,9 +113,9 @@ link = "contact"
 # google map
 [params.map]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDB_xkO2f5CYGaUbqseFk3RqmFBmM-Jx_A"
+map_latitude = "50.80571587320383"
+map_longitude = "-1.8982588006637635"
 map_marker = "images/marker.png"
 
 ######################### Clients logo ################################

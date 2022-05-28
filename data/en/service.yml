@@ -1,50 +1,19 @@
 ########################### services ############################
 services:
   # service item loop
-  - title : "Web development"
+  - title : "Property Clearances"
     icon : "ti-desktop" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
+    content : "We will strip bare all types office and residential properties, removing all items, and disposing of everything correctly and legally"
 
   # service item loop
-  - title : "Interface Design"
+  - title : "Privacy Guaranteed"
     icon : "ti-layers" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
+    content : "Privacy, safety and discretion are paramount these days, so we treat all documentation extremely judiciously. Important items will be returned to you in the first place, if not, we will dispose of them professionally, shredding or burning where appropriate"
 
   # service item loop
-  - title : "Business Consulting"
+  - title : "Considerate and Careful"
     icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "Branding"
-    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "App development"
-    icon : "ti-android" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "Content creation"
-    icon : "ti-pencil-alt" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "Business Consulting"
-    icon : "ti-bar-chart" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "Branding"
-    icon : "ti-vector" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
-  # service item loop
-  - title : "App development"
-    icon : "ti-android" # themify icon pack: https://themify.me/themify-icons
-    content : "A digital agency isn't here to replace your internal team, we're here to partner"
-
+    content : "We handle all items carefully, so if there are objects you wish to keep, they will arrive to you in their original condition. And all down the chain, we look after things, recycling where possible, and disposing of professionally where necessary"
 
 ######################### pricing #####################################
 pricing:
@@ -56,13 +25,13 @@ steps:
   enable : true
   step:
     # step loop
-    - title : "Discuss with us"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
+    - title : "Survey The Job"
+      content : "Call us and we can arrange to come and see the property and come up with a reasonable quote. Our quotations are not extortionate - we will moderate it not only according to the workload and associated costs, but also in accordance with items that we can profitably dispose of "
 
     # step loop
-    - title : "Choose your perfect plan"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
+    - title : "Work To A Deadline"
+      content : "We will clear the property within a clear timeframe. Obviously, when dealing with a deceased person, or moving an elderly person, there can be rental or sale obligations, and we will only give you a quote if we can guarantee fulfilling the job to your exact specification"
 
     # step loop
-    - title : "Start your project"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart"
+    - title : "No Loose Ends"
+      content : "We will not leave anything outstanding; if items such as washing machines need to be uninstalled and removed, it will all be taken care of. The property will be left completely free of detritus, clutter, residual mess, and any objects of any description. We can also, at a surcharge, clean the property"
