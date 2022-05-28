@@ -19,16 +19,16 @@ banner:
 ######################## Banner call to action ############################
 banner_cta:
   enable : true
-  title : "We understand that clearing a house can be traumatic"
-  content : "We aim to make that process as sympathetic and stress-free as possible"
+  title : "Clearing out a house doesn't have to leave you feeling empty"
+  content : "If you are looking for a reputable Dorset clearance company, look no further than dhc™. We provide a wide range of professional clearance services for both domestic and commercial customers in Bournemouth, Poole and throughout the county. Our services are prompt and competitively priced. Speak to our team for further details"
   button:
     enable : true
-    label : "Who We Are"
-    link : "about"
+    label : "Get In Touch"
+    link : "contact"
 
 ########################## feature ########################################
 feature:
-  enable : true
+  enable : false
   title : "We provide best solution to client with their business problem"
   feature_item:
     # feature item loop
@@ -43,7 +43,7 @@ feature:
 
 ######################## About #######################################
 about:
-  enable : true
+  enable : false
   image : "images/about/home-8.jpg"
   title : "Forget about <br> design limits! Build and customize your portfolio"
   content : "We provide consulting services in the area of IFRS and management reporting, helping companies
@@ -55,7 +55,7 @@ about:
 
 ##################### Funfacts ######################################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # fanfacts item loop
     - title : "Project Done"
@@ -90,12 +90,12 @@ service:
 
 ######################### pricing #####################################
 pricing:
-  enable : true
+  enable : false
   # pricing item comes from "data/**/pricing.yml" file
 
 ############################# Team ##################################
 team:
-  enable: true
+  enable: false
   title : "Amazing Team"
   content : "We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque"
   team_member:
@@ -228,7 +228,7 @@ team:
 
 ################################### promo video ##########################
 promo_video:
-  enable : true
+  enable : false
   title : "See How we work!"
   video_thumbnail : "images/bg/contact-bg-min-1.jpg"
   video_link : "https://www.youtube.com/watch?v=jrkvirglgaQ"
@@ -236,7 +236,7 @@ promo_video:
 
 ############################## blog ####################################
 blog:
-  enable: true
+  enable: false
   title : "Latest News & Articles"
   content : "Don’t just take our words for it. Our clients are our biggest supporters. Would you like to know what they think about us?"
   # blog post comes from "content/**/blog" folder.

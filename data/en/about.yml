@@ -1,24 +1,8 @@
 ############################### About #################################
 about:
   enable: true
-  title : "We create digital ideas that are bigger, bolder, braver and better."
-  content : "We provide consulting services in the area of IFRS and management
-          reporting, helping companies to reach their highest level. We optimize business processes, making them easier."
-  about_item:
-    # about item loop
-    - title : "Our Mission"
-      image : "images/about/bg-1.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
-
-    # about item loop
-    - title : "Our Vission"
-      image : "images/about/about.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
-
-    # about item loop
-    - title : "Our Approach"
-      image : "images/about/home-8.jpg"
-      content : "llum similique ducimus accusamus laudantium praesentium, impedit quaerat, itaque maxime sunt deleniti  distinctio ."
+  title : "A Small Team for Big Jobs"
+  content : "Myself (Mark) and Barry have been working together for 5 years. Alongside us we have a small group of trusted people. We work efficiently and quickly, and always endeavour, (after many years in customer service), to deliver what you the client have requested. Generally speaking, no job is too difficult, and we take pride in having customers who always come back to us, and always have something nice to say about us. We know house clearances are not a glamorous job, but they often involve sensitive circumstances and indeed, sensitive and private items. We hope we treat you the client, and equally, your effects, with respect."
 
 ##################### Funfacts ######################################
 funfacts:
