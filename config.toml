@@ -86,10 +86,10 @@ description = "Professional House Clearance Service in Dorset, (inc. Bournemouth
 author = "Themefisher"
 # contact info
 address = "92 Church Rd, Ferndown, BH22 9EX"
-phone = "+44 7894142106"
+phone = "+44 7793251677"
 email = "info@dorsethouseclearance.uk"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xyyoobnz" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # search
